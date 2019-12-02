@@ -2,11 +2,11 @@ English and lvs: `apertium-eng-lvs`
 ===============================================================================
 
 This is an Apertium language pair for translating between English and
-lvs. What you can use this language package for:
+Latvian. What you can use this language package for:
 
-* Translating between English and lvs
-* Morphological analysis of English and lvs
-* Part-of-speech tagging of English and lvs
+* Translating between English and Latvian
+* Morphological analysis of English and Latvian
+* Part-of-speech tagging of English and Latvian
 
 For information on the latter two points, see subheading "For more
 information" below.
