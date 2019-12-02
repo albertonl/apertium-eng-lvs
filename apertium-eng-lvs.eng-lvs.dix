@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÃÄÅÆÇÈÉÊËÍÏÑÓÕÖØÚÜÝßàáâãäåæçèéêëíîïñóõöøúûüýĀāĂăĄąĆćČčĎďĐÐđðþÞĒēĖėĘęĚěĞğĢģĪÎīĶķĻļĽľŁłŃńŅņŇňŐőŘřŚśŞşŠšŢţŤťŪūŰűŹźŻżŽžǍǎȘșȚț</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -97,7 +97,114 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      	<!-- Nouns -->
+      <e><p><l>table<s n="n"/></l><r>galds<s n="n"/></r></p></e>
+      <e><p><l>world<s n="n"/></l><r>passaule<s n="n"/></r></p></e>
+      <e><p><l>woman<s n="n"/></l><r>sieviete<s n="n"/></r></p></e>
+      <e><p><l>man<s n="n"/></l><r>vīrietis<s n="n"/></r></p></e>
+      <e><p><l>chair<s n="n"/></l><r>krēsls<s n="n"/></r></p></e>
+      <e><p><l>door<s n="n"/></l><r>durvis<s n="n"/></r></p></e>
+      <e><p><l>window<s n="n"/></l><r>logs<s n="n"/></r></p></e>
+      <e><p><l>car<s n="n"/></l><r>automašīna<s n="n"/></r></p></e>
+      <e><p><l>milk<s n="n"/></l><r>piens<s n="n"/></r></p></e>
+      <e><p><l>water<s n="n"/></l><r>ūdens<s n="n"/></r></p></e>
+      <e><p><l>kitchen<s n="n"/></l><r>virtuve<s n="n"/></r></p></e>
+      <e><p><l>spoon<s n="n"/></l><r>karote<s n="n"/></r></p></e>
+      <e><p><l>fork<s n="n"/></l><r>dakša<s n="n"/></r></p></e>
+      <e><p><l>platform<s n="n"/></l><r>platforma<s n="n"/></r></p></e>
+      <e><p><l>examination<s n="n"/></l><r>pārbaude<s n="n"/></r></p></e>
+      <e><p><l>magazine<s n="n"/></l><r>žurnāls<s n="n"/></r></p></e>
+      <e><p><l>climate<s n="n"/></l><r>klimats<s n="n"/></r></p></e>
+      <e><p><l>drawing<s n="n"/></l><r>zīmējums<s n="n"/></r></p></e>
+      <e><p><l>administration<s n="n"/></l><r>administrācija<s n="n"/></r></p></e>
+      <e><p><l>contest<s n="n"/></l><r>konkurss<s n="n"/></r></p></e>
+      <e><p><l>user<s n="n"/></l><r>lietotājs<s n="n"/></r></p></e>
+      <e><p><l>father<s n="n"/></l><r>tēvs<s n="n"/></r></p></e>
+      <e><p><l>son<s n="n"/></l><r>dēls<s n="n"/></r></p></e>
+      <e><p><l>anxiety<s n="n"/></l><r>trauksme<s n="n"/></r></p></e>
+      <e><p><l>police<s n="n"/></l><r>policija<s n="n"/></r></p></e>
+      <e><p><l>city<s n="n"/></l><r>pilsēta<s n="n"/></r></p></e>
+      <e><p><l>analysis<s n="n"/></l><r>analīze<s n="n"/></r></p></e>
+      <e><p><l>law<s n="n"/></l><r>likums<s n="n"/></r></p></e>
+      <e><p><l>device<s n="n"/></l><r>ierīce<s n="n"/></r></p></e>
+      <e><p><l>location<s n="n"/></l><r>vieta<s n="n"/></r></p></e>
+      <e><p><l>salad<s n="n"/></l><r>salāti<s n="n"/></r></p></e>
+      <e><p><l>box<s n="n"/></l><r>kaste<s n="n"/></r></p></e>
+      <e><p><l>outcome<s n="n"/></l><r>iznākums<s n="n"/></r></p></e>
+      <e><p><l>map<s n="n"/></l><r>karte<s n="n"/></r></p></e>
+      <e><p><l>college<s n="n"/></l><r>koledža<s n="n"/></r></p></e>
+      <e><p><l>collection<s n="n"/></l><r>kolekcija<s n="n"/></r></p></e>
+      <e><p><l>meaning<s n="n"/></l><r>nozīme<s n="n"/></r></p></e>
+      <e><p><l>paper<s n="n"/></l><r>papīrs<s n="n"/></r></p></e>
+
+      	<!-- Adjectives -->
+      <e><p><l>big<s n="adj"/></l><r>liels<s n="adj"/></r></p></e>
+      <e><p><l>small<s n="adj"/></l><r>mazs<s n="adj"/></r></p></e>
+      <e><p><l>tall<s n="adj"/></l><r>garš<s n="adj"/></r></p></e>
+      <e><p><l>short<s n="adj"/></l><r>īss<s n="adj"/></r></p></e>
+      <e><p><l>cold<s n="adj"/></l><r>auksts<s n="adj"/></r></p></e>
+      <e><p><l>hot<s n="adj"/></l><r>karsts<s n="adj"/></r></p></e>
+      <e><p><l>open<s n="adj"/></l><r>atvērts<s n="adj"/></r></p></e>
+      <e><p><l>closed<s n="adj"/></l><r>slēgts<s n="adj"/></r></p></e>
+      <e><p><l>fast<s n="adj"/></l><r>ātri<s n="adj"/></r></p></e>
+      <e><p><l>slow<s n="adj"/></l><r>lēns<s n="adj"/></r></p></e>
+      <e><p><l>red<s n="adj"/></l><r>sarkans<s n="adj"/></r></p></e>
+      <e><p><l>yellow<s n="adj"/></l><r>dzeltens<s n="adj"/></r></p></e>
+      <e><p><l>blue<s n="adj"/></l><r>zils<s n="adj"/></r></p></e>
+      <e><p><l>funny<s n="adj"/></l><r>smieklīgs<s n="adj"/></r></p></e>
+      <e><p><l>silly<s n="adj"/></l><r>dumjš<s n="adj"/></r></p></e>
+      <e><p><l>boring<s n="adj"/></l><r>urbšanas<s n="adj"/></r></p></e>
+      <e><p><l>magical<s n="adj"/></l><r>maģisks<s n="adj"/></r></p></e>
+      <e><p><l>spectacular<s n="adj"/></l><r>iespaidīgs<s n="adj"/></r></p></e>
+      <e><p><l>eastern<s n="adj"/></l><r>austrumu<s n="adj"/></r></p></e>
+      <e><p><l>western<s n="adj"/></l><r>rietumu<s n="adj"/></r></p></e>
+      <e><p><l>northern<s n="adj"/></l><r>ziemeļu<s n="adj"/></r></p></e>
+      <e><p><l>southern<s n="adj"/></l><r>dienvidu<s n="adj"/></r></p></e>
+      <e><p><l>necessary<s n="adj"/></l><r>nepieciešams<s n="adj"/></r></p></e>
+      <e><p><l>useful<s n="adj"/></l><r>noderīgs<s n="adj"/></r></p></e>
+      <e><p><l>pathetic<s n="adj"/></l><r>nožēlojams<s n="adj"/></r></p></e>
+
+
+      	<!-- Verbs -->
+      <e><p><l>read<s n="vblex"/></l><r>lasīt<s n="vblex"/></r></p></e>
+      <e><p><l>eat<s n="vblex"/></l><r>ēst<s n="vblex"/></r></p></e>
+      <e><p><l>think<s n="vblex"/></l><r>domāt<s n="vblex"/></r></p></e>
+      <e><p><l>walk<s n="vblex"/></l><r>iet<s n="vblex"/></r></p></e>
+      <e><p><l>look<s n="vblex"/></l><r>skatīties<s n="vblex"/></r></p></e>
+      <e><p><l>live<s n="vblex"/></l><r>dzīvot<s n="vblex"/></r></p></e>
+      <e><p><l>sing<s n="vblex"/></l><r>dziedāt<s n="vblex"/></r></p></e>
+      <e><p><l>cry<s n="vblex"/></l><r>raudāt<s n="vblex"/></r></p></e>
+      <e><p><l>laugh<s n="vblex"/></l><r>smieties<s n="vblex"/></r></p></e>
+      <e><p><l>open<s n="vblex"/></l><r>atvērt<s n="vblex"/></r></p></e>
+      <e><p><l>close<s n="vblex"/></l><r>aizvērt<s n="vblex"/></r></p></e>
+      <e><p><l>love<s n="vblex"/></l><r>mīlēt<s n="vblex"/></r></p></e>
+      <e><p><l>dream<s n="vblex"/></l><r>sapņot<s n="vblex"/></r></p></e>
+      <e><p><l>cook<s n="vblex"/></l><r>gatavot<s n="vblex"/></r></p></e>
+      <e><p><l>aim<s n="vblex"/></l><r>mērķēt<s n="vblex"/></r></p></e>
+      <e><p><l>melt<s n="vblex"/></l><r>kust<s n="vblex"/></r></p></e>
+      <e><p><l>hurt<s n="vblex"/></l><r>ievainot<s n="vblex"/></r></p></e>
+      <e><p><l>block<s n="vblex"/></l><r>bloķēt<s n="vblex"/></r></p></e>
+      <e><p><l>sleep<s n="vblex"/></l><r>gulēt<s n="vblex"/></r></p></e>
+      <e><p><l>swing<s n="vblex"/></l><r>šūpoles<s n="vblex"/></r></p></e>
+      <e><p><l>command<s n="vblex"/></l><r>pavēlēt<s n="vblex"/></r></p></e>
+      <e><p><l>progress<s n="vblex"/></l><r>progresēt<s n="vblex"/></r></p></e>
+      <e><p><l>help<s n="vblex"/></l><r>palīdzēt<s n="vblex"/></r></p></e>
+      <e><p><l>book<s n="vblex"/></l><r>rezervēt<s n="vblex"/></r></p></e>
+      <e><p><l>enhance<s n="vblex"/></l><r>uzlabot<s n="vblex"/></r></p></e>
+      <e><p><l>hurry<s n="vblex"/></l><r>steigties<s n="vblex"/></r></p></e>
+
+      	<!-- Numbers -->
+      <e><p><l>zero<s n="num"/></l><r>nulle<s n="num"/></s></r></p>
+      <e><p><l>one<s n="num"/></l><r>viens<s n="num"/></r></p></e>
+      <e><p><l>two<s n="num"/></l><r>divi<s n="num"/></r></p></e>
+      <e><p><l>three<s n="num"/></l><r>trīs<s n="num"/></r></p></e>
+      <e><p><l>four<s n="num"/></l><r>četri<s n="num"/></r></p></e>
+      <e><p><l>five<s n="num"/></l><r>pieci<s n="num"/></r></p></e>
+      <e><p><l>six<s n="num"/></l><r>seši<s n="num"/></r></p></e>
+      <e><p><l>seven<s n="num"/></l><r>septiņi<s n="num"/></r></p></e>
+      <e><p><l>eight<s n="num"/></l><r>astoņi<s n="num"/></r></p></e>
+      <e><p><l>nine<s n="num"/></l><r>deviņi<s n="num"/></r></p></e>
+      <e><p><l>ten<s n="num"/></l><r>desmit<s n="num"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
