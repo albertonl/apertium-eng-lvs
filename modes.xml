@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- eng → lvs -->
+
+  <mode name="eng-lvs" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-lvs.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-lvs.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-lvs.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-lvs.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-lvs.autolex.bin"/>
+      </program>
+
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-lvs.eng-lvs.t1x"/>
+        <file name="eng-lvs.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-lvs.eng-lvs.t2x"/>
+        <file name="eng-lvs.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-lvs.eng-lvs.t3x"/>
+        <file name="eng-lvs.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-lvs.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="eng-lvs.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- lvs → eng -->
+
+  <mode name="lvs-eng" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="lvs-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="lvs-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="lvs-eng.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="lvs-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="lvs-eng.autolex.bin"/>
+      </program>
+
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-lvs.lvs-eng.t1x"/>
+        <file name="lvs-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-lvs.lvs-eng.t2x"/>
+        <file name="lvs-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-lvs.lvs-eng.t3x"/>
+        <file name="lvs-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="lvs-eng.autogen.bin"/>
+      </program>
+
+      <program name="lt-proc -p">
+        <file name="lvs-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
